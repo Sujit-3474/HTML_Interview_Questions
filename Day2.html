@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+    body{
+     background-color: antiquewhite;
+    }
+     
+    h3{
+        text-decoration: underline;
+    }
+
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .div1
+    {
+      position: absolute;
+      left:20px;
+      top:10px;
+      height:30px;
+      width:180px;
+      border: 2px solid rgb(69, 136, 38);
+      font-size:20px;
+      
+    }
+
+
+        table,tr,th,td{
+            border:2px solid red;
+            height:50px;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"> <a href="index.html"> <--Previous Page</a></div>
+    <h1>Day 2 Questions</h1>
+    <h3>1. Write code to create an ordered list with roman numbers</h3>
+    <br>
+    <ol type="I">
+
+        <li>This is 1</li>
+        <li>This is 2</li>
+        <li>This is 3</li>
+    </ol>
+
+    <br>
+    <ol type="i">
+
+        <li>This is 1</li>
+        <li>This is 2</li>
+        <li>This is 3</li>
+    </ol>
+
+
+   <h3>2. Write code to create an unordered list with circle </h3>
+
+     <ul type="circle">
+        <li>This is one</li>
+        <li>This is Two</li>
+        <li>This is Three</li>
+     </ul>
+
+
+     <h3>3. Write code to create a link to https://www.prepbytes.com</h3>
+     
+     <a href="https://www.prepbytes.com" target="_blank">Click Here to move to another page</a>
+   
+
+    <h3>4. Write a code to insert an image </h3>
+
+    <img src="./image.jpg" alt="image">
+
+    <h3>5. Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this.</h3>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+
+        <tr>
+            <td>Sujit</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>Anand</td>
+            <td>20000</td>
+        </tr>
+    </table>
+    
+
+    <h3>6. Create a form contain input fields like name age email and contact</h3>
+ <form action="">
+ <label for="">Name</label>
+ <input type="text" placeholder="Enter name"> <br><br>
+ <label for="">Age</label>
+ <input type="number" placeholder="Enter Age"><br><br>
+ <label for="">Email</label>
+ <input type="email" placeholder="Enter Email"><br><br>
+ <label for="">Contact</label>
+ <input type="number" placeholder="Enter Contact Number"> <br>
+ <input type="Submit" value="Submit">
+ </form>
+
+   <h3>7. Create a table and explain how to acheive colspan</h3>
+
+   <table>
+    <tr>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+
+    <tr>
+        <td colspan="2">Sujit</td> <!-- Note:- by this we can achieve colspan -->
+        <!-- <td>10000</td>  --> 
+    </tr>
+    <tr>
+        <td>Anand</td>
+        <td>20000</td>
+    </tr>
+</table>
+
+
+<h3>8. Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h3>
+
+  <label >Select Course</label><br>
+<input type="radio" id="Mern" name="course">MERN<br>
+
+<input type="radio" id="MEan" name="course">MEAN
+  <br><br>
+<label>Select Technology</label> <br>
+
+<input type="checkbox">HTML <br>
+<input type="checkbox">CSS   <br>
+<input type="checkbox">React   <br>
+<input type="checkbox">Node
+
+</body>
+</html>
