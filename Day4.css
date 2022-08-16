@@ -1,0 +1,344 @@
+
+        body{
+         background-color: antiquewhite;
+        }
+    
+        h3{
+            text-decoration: underline;
+        }
+        
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+        .div1
+        {
+          position: absolute;
+          display: inline;
+          right:20px;
+          top:10px;
+          height:30px;
+          width:120px;
+          border: 2px solid rgb(69, 136, 38);
+          font-size:20px;
+          
+        }
+        .div
+        {
+          position: absolute;
+         
+          left:20px;
+          top:10px;
+          height:30px;
+          width:170px;
+          border: 2px solid rgb(69, 136, 38);
+          font-size:20px;
+          
+        }
+    
+        a{
+          text-decoration: none;
+       
+        }
+
+        .box
+        {
+          height:300px;
+          width:300px;
+          border:2px solid red;
+          background-image: url("image.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        i-box
+        {
+          width:200px;
+          height:200px;
+        }
+
+        button{
+         
+          background-color: aqua;
+          border-radius: 5px;
+        }
+
+        h2{
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+
+    .container
+    {
+    height: 100px;
+    width:150px;
+   
+    background-color: aquamarine;
+   opacity: 0.6;
+   transition: 0.3s;
+
+    }
+
+    .container:hover{
+        width:500px;
+        opacity: 1;
+        background-color:blueviolet
+    }
+
+    .circle
+    {
+        height: 150px;
+        width:150px;
+        background-color: aquamarine;
+        border-radius: 50%;
+    }
+    
+
+    .media
+    {
+        height:200px;
+        width:200px;
+        background-color: blueviolet;
+        color:rgb(54, 9, 9); 
+        font-weight: bold;   
+        animation: animation1 infinite 3s 1s normal;
+    }
+    @keyframes animation1
+    {
+        0%
+        {
+            height: 200px;
+            width: 200px;
+        }
+        50%
+        {
+            height:200px;
+            width:400px;
+        }
+
+        100%
+        {
+            height: 200px;
+            width: 200px;
+
+        }
+    }
+
+
+    .container_image
+    {
+      height:250px;
+      width:300px;
+      
+     box-sizing: border-box;
+      color:rgb(7, 7, 42);
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .sub_container_image
+    {
+
+        height:200px;
+        width: 300px;
+        background-image: url("image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .signup
+    {
+      position:absolute;
+      left:240px;
+      margin-top: 10px;
+    }
+
+
+   
+    .header
+    {
+        height: 80px;
+        border: 2px solid rgb(82, 163, 50);
+        display:flex;
+        flex-wrap: row wrap;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+
+    .div_box1
+    {
+        background-image: url("Image2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:5px;
+        height:30px;
+        width:80px;
+        
+    }
+    
+   
+
+    .div_box2
+    {
+        height:100px;
+        width:400px;
+       
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-around;
+    }
+
+    .items
+    {
+        height:30px;
+        width: 80px;
+        background-color: aquamarine;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+      
+        border-radius: 15px;
+        text-align: center;
+        margin: 5px;
+    }
+
+a{
+    
+    text-decoration: none;
+    color:brown;
+    font-weight: bold;
+    }
+
+ .cards_container
+ {
+height:250px;
+
+border-radius: 5px;
+display: flex;
+flex-wrap:wrap;
+flex-direction: row;
+
+justify-content: space-between;
+ }   
+
+ .sub_cards
+ {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 25px;
+  height:200px;
+  width:200px;
+  border:2px solid red;
+  background-color: aquamarine;
+
+ }
+
+ .btn1
+ {
+ height:50px;
+ width:300px;
+ background-color: aquamarine;
+ }
+
+ @media screen and (min-width:400px) and (max-width:600px)  {
+    .btn1{
+       background-color:blue ;
+    }
+ }
+ @media screen and (min-width:700px)  {
+    .btn1
+    {
+        background-color: blueviolet;
+    }
+    
+ }
+
+ 
+ .cards_container11
+ {
+height:250px;
+border-radius: 5px;
+display: flex;
+flex-wrap:wrap;
+
+justify-content: space-between;
+ }   
+
+ .sub_cards11
+ {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 25px;
+  height:200px;
+  width:200px;
+  border:2px solid red;
+  background-color: aquamarine;
+
+ }
+
+ .cards_container12
+ {
+height: 650px;
+width: 200px;
+
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+background-color:beige;
+justify-content: space-between;
+ }   
+
+ .sub_cards12
+ {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 25px;
+  height:200px;
+  width:200px;
+  border:2px solid red;
+  background-color: aquamarine;
+
+ }
+
+
+ .transition-effect
+ {
+ margin-top:30px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+
+  .transition-effect:hover
+  {
+    width: 300px;
+  }
+ 
+  .transform
+  {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform:skewX(30deg);
+  }
+  .transform2
+  {
+
+  position:absolute;
+    width: 150px;
+    left:250px;
+    height: 80px;
+    background-color: yellow;
+    transform:skewY(30deg);
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(39, 73, 39);
+    }
+  }

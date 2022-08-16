@@ -66,6 +66,23 @@
     <p>Flex row- to display the flex items horizontally (side by side) <br>
       Flex Column- to display the flex items vertically (on top of each other)</p>
 
+      <p><b>Flex- Row</b></p>
+      <div class="eg1">
+          <div class="sub-eg1"></div>
+          <div class="sub-eg1"></div>
+          <div class="sub-eg1"></div>
+
+      </div>
+
+      <p><b>Flex- Column</b></p>
+      <div class="eg2">
+        <div class="sub-eg2"></div>
+        <div class="sub-eg2"></div>
+        <div class="sub-eg2"></div>
+
+    </div>
+
+
 
       <h3>2. Explain inline , internal and external stylesheet</h3>
  <p>Internal CSS- Internal requires you to add style tag in the head section of your HTML document.
@@ -73,43 +90,172 @@
     only need to add the style attribute to each HTML tag, without using selectors. <br>
     External CSS- With external CSS, we link your web pages to an external .css file
  </p>
+
+<p><b>Inline Css</b></p>
+<pre>
+  < p align="center">Hello < /p>
+</pre>
+
+<p><b>Internal Css</b> </p>
+<pre>
+< html>
+< head> 
+< style>
+
+
+ .body 
+ {
+  background-color: blue;
+ }
+< /style>
+
+< /head>
+< body>
+ < p> Hello< /p>
+
+< /body>
+< /html>
+</pre>
+
+<p><b>External CSS</b></p>
+<pre>
+Page3.css 
+.body 
+{
+  background-color:blue;
+}
+
+Page3.html 
+< html>
+< head> 
+ < link rel="stylesheet" href="Page3.css">
+
+< /head>
+< body>
+ < p> Hello< /p>
+
+< /body>
+< /html>
+</pre>
+
+
+
+</pre>
  
  <h3>3. Justify-content allows you to do what?</h3>
  <p>justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis i.e., horizontally.</p>
     
+
+ <p><b>Justify Content: space-around</b></p>
+      <div class="eg1">
+          <div class="sub-eg1"></div>
+          <div class="sub-eg1"></div>
+          <div class="sub-eg1"></div>
+
+      </div>
+
+
+      <p><b>Justify Content: center</b></p>
+      <div class="eg3">
+          <div class="sub-eg3"></div>
+          <div class="sub-eg3"></div>
+          <div class="sub-eg3"></div>
+
+      </div>
 
  <h3>4. Difference between absolute and relative positioning</h3>
  <p>Relative Position: Setting the top, right, bottom, and left properties of an element with position: relative; property will cause it to adjust from its normal position. The other objects or elements will not fill the gap. 
     <br>
     Absolute Position: An element with position: absolute; will cause it to adjust its position with respect to its parent.</p>
 
+ <div class="absolute">Absolute Position</div>
+ <div class="relative">Relative Position</div>
+
+
+
+
     <h3>5. What is grid-template-columns used for?</h3>
     <p>The grid-template-columns property is used to set the number of columns and size of the columns of the grid. It also also more than one values.</p>
+
+    <div class="grid-container">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+    </div>
+
+
+
 
     <h3>6. What is the z-index in CSS?</h3>
     <p>z-index works on positioned elements like absolute, relative, fixed, or sticky and flex items. <br>
     An element having higher z-index will be seen at the top.</p>
 
+    <div class="index1">Higher Z-index</div>
+    <div class="index2">Lower Z-index</div>
+
+
     <h3>7. What is the difference between padding and margin?</h3>
     <p>Padding- Padding is the space between the border and the content while margin is the space outside the border
         <br>Padding separates the content of a block from the border. </p>
+
+        <p><b>Padding</b></p>
+       <div class="main-padding">
+        <div class="padding">Padding</div>
+      </div>
+
+
+      <p><b>Margin</b></p>
+
+      <div class="main-padding">
+        <div class="margin">Margin</div>
+      </div>
 
 
         <h3>8. What is box sizing?</h3>
   <p> box-sizing property is used to specify how to calculate the total height and width of an element. 
     It controls the size of an element with a specified height and width. </p>
+ 
+    <p><b>content-box</b></p>
+   
+    <div id="content-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, minima? Adipisci pariatur, molestiae magnam illum, 
+      explicabo tempora deleniti iusto provident dolor quas tenetur nobis ad, hic rerum illo quis perspiciatis.</div>
+   
+
+
+
+
+      <p><b>border-box</b></p>
+    
+      <div id="border-box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, minima? Adipisci pariatur, molestiae magnam
+      </div >
 
     <h3>9. What is animation delay?</h3>
     <p>Animation delay is the amount of time taken by the element to perform the animation.</p>
+    
 
+    <div class="animation">
+     Animation of a div of increasing width
+    </div>
 
     <h3>12. What is box-model in CSS?</h3>
     <p>Box-model can be used as a toolkit for customizing the layout of different elements. 
         The web browser renders every element as a rectangular box according to the CSS box model</p>
 
+        <div class="box-model">Div as a Box model</div>
+        <p class="box-model">Paragraph as a Box model</p>
+        <span class="box-model">Span as a Box model</span>
 
 <h3>13. what is the difference between display none and visibility hidden?</h3>
 <p>Visibility:hidden - means that the tag is not visible, but space is allocated for it on the page <br>
   Display:none - property is used to specify whether an element exists or not on the website</p>
-</body>
+
+
+  
+<h1>Visible Item</h1>
+<h1 class="display-visible">hidden item</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius optio temporibus nihil neque ipsum odio perspiciatis </div>
+    
+<h1>Visible Item</h1>
+<h1 class="display-visible1">hidden item</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eius optio temporibus nihil neque ipsum odio perspiciatis </div>
 </html>
